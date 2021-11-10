@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Altausuarios"
+    android:background="@drawable/fondopantalla1">
+
+    <ImageButton
+        android:id="@+id/btnregresaralrausu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="MissingConstraints,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Registrate"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/azul"
+            android:shadowColor="#8AA9C8"
+            android:shadowDx="9"
+            android:shadowDy="5"
+            android:shadowRadius="6"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abrade_italic"
+            android:text="Facil y Sencillo"
+            android:textAlignment="center"
+            android:textColor="@color/azul"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edtid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/edtnombre"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:hint=" Nombre Completo"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/edtapellido"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:hint=" Apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:hint=" Correo Electronico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtcorreo2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:hint=" Confirmar Correo Electronico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtcontraseña"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:hint=" Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edttelefono"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:hint=" Telefono"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtfecha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:hint=" Fecha de Nacimiento"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edtsexo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/shadow"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:hint=" Sexo"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnagregarusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@null"
+            android:shadowColor="@color/white"
+            android:text="Agregar Cuenta"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

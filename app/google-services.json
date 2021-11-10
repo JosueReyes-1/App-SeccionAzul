@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "922308123613",
+    "project_id": "ocean-blue-260a2",
+    "storage_bucket": "ocean-blue-260a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922308123613:android:149a6bc92b688ae8a27434",
+        "android_client_info": {
+          "package_name": "com.example.ocean14"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922308123613-a5km83af7vp6lmil1c7acfe4vr7d2e32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyDM1n2HocFcfF5jJun0MjNqEVtRlbUiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922308123613-a5km83af7vp6lmil1c7acfe4vr7d2e32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

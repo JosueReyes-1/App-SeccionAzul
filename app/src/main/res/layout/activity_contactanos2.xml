@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactanosActivity"
+    android:background="@drawable/fondopantalla1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageButton
+            android:id="@+id/btnregresarcontactanos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_back"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/icono" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="@font/abrade_regular"
+                android:gravity="center"
+                android:text="CEAN BLUE"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Publicida digital"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Manejo de Redes Sociales"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Talleres Empresariales"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Marketing"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Publicidad Movil"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Fotografia y Video"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:text="Diseño Grafico"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Lona Impresa"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:drawableLeft="@drawable/ic_circulo"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Desarrollo de Aplicaciones"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_celular"
+                android:text="311 160 3483"
+                android:textColor="@color/black"
+                android:textColorLink="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/ic_celular"
+                android:text="311 160 0854"
+                android:textColor="@color/black"
+                android:textColorLink="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_whatsapp"
+                android:text="311 256 6520"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_coreo2"
+            android:fontFamily="@font/abrade_regular"
+            android:text="publicidadoceanblue@gmail.com"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:drawableLeft="@drawable/ic_ubicacion"
+            android:fontFamily="@font/abrade_regular"
+            android:text="Av. Allende #166, entre Ures y P. Sanches, Colonia Centro, Tepic, Nayarit"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IniciarSesion"
+    android:background="@drawable/fondopantalla1">
+
+    <ImageButton
+        android:id="@+id/btnregresarinisiosesion"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="MissingConstraints,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abrade_regular"
+            android:shadowColor="#8AA9C8"
+            android:layout_marginBottom="50dp"
+            android:shadowDx="9"
+            android:shadowDy="5"
+            android:layout_gravity="center"
+            android:shadowRadius="6"
+            android:text="Iniciar Sesion"
+            android:textAlignment="center"
+            android:textColor="@color/azul"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btncrearcuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Crear Cuenta"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/icono" />
+
+        <TextView
+            android:id="@+id/tverror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:fontFamily="@font/abrade_regular"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:drawableLeft="@drawable/ic_user"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:ems="10"
+            android:fontFamily="@font/abrade_regular"
+            android:drawableLeft="@drawable/ic_candado"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="5dp" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/abrade_regular"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Iniciar Sesión"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

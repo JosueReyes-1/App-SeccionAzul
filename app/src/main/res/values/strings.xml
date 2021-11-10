@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ocean1.4</string>
+    <string name="URL_NEGOCIO">https://seccionazul.000webhostapp.com/buscar_negocio.php</string>
+    <string name="URL_USUARIO">https://seccionazul.000webhostapp.com/buscar_usuario.php</string>
+
+
+</resources>
